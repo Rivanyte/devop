@@ -46,14 +46,14 @@ app-hosting appid guestshell
    memory 512
 end
 
-UNANGTELNET:  guestshell enable
-2NDtELNET:    guestshell run python
+UNANGTELNET enables DOCKERIzation:  guestshell enable 
+2NDtELNET run python docker via reddhat using on cisco:    guestshell run python
 THIRDTELNET:  guestshell run bash
 
 
 ssh2 your CSR1000v twise:
 
-CSR1k#
+CSR1k
 CSR1k#guestshell run bash
 [guestshell@guestshell ~
 
